@@ -31,7 +31,7 @@ and the IoT Hub Server is up.
 
 ### Web Interface Setup
 The Web Portal is a drag and drop editor that allows to configure connected Arduinos with various Components (For now its only LED).
-The Web Portal was built with [Phaser](http://phaser.com).
+The Web Portal was built with [Phaser](http://phaser.io).
 
 Just open the web/index.html file in your browser.
 You will see a connected status, once it can connect to the iot server.
