@@ -1,0 +1,60 @@
+/**
+* Stylings for the app
+*/
+
+body {
+	background: #dddddd;
+}
+
+#componentShelve {
+	width: 45px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-height: 650px;
+	background: #d6d0ce;
+}
+
+#componentConfigArea {
+	position: fixed;
+	top: 0px;
+	left: 45px;
+	min-height: 650px;
+}
+
+.shelveButton {
+	background: #d6d0ce;
+	border-style: groove;
+}
+
+.shelveButton:hover {
+	border-style: outset;
+
+}
+
+.shelveButton:active {
+	border-style: inset;
+}
+
+.shelveButton > .componentIcon {
+	width: 30px;
+	height: auto;
+}
+
+.controlSection {
+	height: 325px;
+	width: 250px;
+	overflow-y: scroll;
+	background: #d6d0ce;
+}
+
+.controlSection > .header {
+	background-color: #232323;
+	color: #ffffff;
+	padding: 3px;
+}
+
+.status {
+	background: #1123df;
+	color: white;
+}

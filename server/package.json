@@ -1,0 +1,16 @@
+{
+  "name": "iothub",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "mongoose": "~4.1.11",
+    "ws": "~0.8.0"
+  }
+}
